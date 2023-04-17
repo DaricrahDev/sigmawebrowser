@@ -1,0 +1,156 @@
+/* Global styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	font-family: 'Noto Sans';
+	font-size: 16px;
+	line-height: 1.5;
+	color: #000;
+  }
+  
+  a {
+	color: #177eec;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+	color: #0e5eb4;
+	text-decoration: none;
+	font-size: 20px;
+  }
+  
+  /* Header styles */
+  header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #F5F5F5;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+  }
+  
+  .logo-container {
+	display: flex;
+	align-items: center;
+  }
+  
+  .logo-container img {
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+  }
+  
+  .search-container {
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 20px;
+	overflow: hidden;
+  }
+  
+  .search-container input[type="text"] {
+	flex: 1;
+	padding: 10px;
+	border: none;
+	outline: none;
+	font-size: 16px;
+  }
+  
+  .search-container button {
+	padding: 10px 15px;
+	background-color: #177eec;
+	color: #fff;
+	border: none;
+	border-radius: 0 20px 20px 0;
+	cursor: pointer;
+  }
+  
+  nav {
+	display: flex;
+	align-items: center;
+  }
+  
+  nav a {
+	margin-right: 20px;
+	font-size: 16px;
+	font-weight: bold;
+  }
+  
+  /* Main styles */
+  main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px;
+  }
+  
+  .hero-image-container {
+	margin-bottom: 50px;
+  }
+  
+  .hero-image-container img {
+	width: 100%;
+	max-width: 800px;
+  }
+  
+  .info-container {
+	max-width: 800px;
+	text-align: center;
+  }
+  
+  .info-container h2 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 20px;
+  }
+  
+  .info-container p {
+	margin-bottom: 20px;
+  }
+  
+  .download-button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #177eec;
+	color: #fff;
+	border: none;
+	border-radius: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .download-button:hover {
+	background-color: #177eec;
+	transform: scale(1.1);
+  }
+  
+  /* Footer styles */
+  footer {
+	padding: 20px;
+	background-color: #F5F5F5;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+  }
+
+  .bigone {
+	font-size: 20px;
+  }
+
+  .bigone:hover {
+	font-size: 25px;
+  }
+
+  li a .apps {
+	text-align: right;
+  }
+  
+  

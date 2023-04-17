@@ -1,0 +1,42 @@
+* {
+	font-family: 'Noto Sans';
+	position: relative;
+	text-align: center;
+}
+
+hr {
+	border: none;
+}
+
+a {
+	position: relative;
+	top: 13em;
+	color: #177eec;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+button {
+	position: relative;
+	justify-content: space-between;
+	top: 120px;
+	border-radius: 10px;
+	font-size: 20px;
+	border: none;
+	background-color: #b6b6b6;
+	transition: all 0.3s ease;
+}
+
+button:hover {
+	background-color: #177eec;
+	transform: scale(0.9);
+	cursor: pointer;
+}
+
+.imgdo {
+	position: relative;
+	top: 7px;
+}
